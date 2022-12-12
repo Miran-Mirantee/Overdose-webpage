@@ -1,3 +1,4 @@
+// append footer and navBar to the html
 import footer from "./footer.js";
 import navBar from "./navbar.js";
 import memberProfile from "./memberProfile.js";
@@ -42,7 +43,7 @@ let facebookLink5 = 'javascript:;';
 let twitterLink5 = 'javascript:;';;
 let linkedinLink5 = 'javascript:;';;
 
-
+// append each of the member's profile to the html
 const member1 = memberProfile(memberName1, memberRole1, memberInfo1, memberImg1, facebookLink1, twitterLink1, linkedinLink1);
 const member2 = memberProfile(memberName2, memberRole2, memberInfo2, memberImg2, facebookLink2, twitterLink2, linkedinLink2);
 const member3 = memberProfile(memberName3, memberRole3, memberInfo3, memberImg3, facebookLink3, twitterLink3, linkedinLink3);

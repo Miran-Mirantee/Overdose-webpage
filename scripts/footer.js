@@ -1,5 +1,7 @@
+// footer factory function
+// is a function that create a footer of website to display information on html
 const footer = (() => {
-    // create a footer
+    // create a footer section
     const footer = document.createElement('footer');
     footer.classList.add('footer-dark');
     
@@ -40,9 +42,12 @@ const footer = (() => {
                         default:
                             print('You are not suppose to be here!');
                     }
+                    // append link to the list
                     li.append(a);
+                    // append lists to the unordered list
                     ul.append(li);
                 }
+                // append header and undordered list to the item
                 item.append(header, ul);
                 break;
 
@@ -66,9 +71,12 @@ const footer = (() => {
                         default:
                             print('You are not suppose to be here!');
                     }
+                    // append link to the list
                     li.append(a);
+                    // append lists to the unordered list
                     ul.append(li);
                 }
+                // append header and undordered list to the item
                 item.append(header, ul);
                 break;
             // Our company
@@ -80,6 +88,7 @@ const footer = (() => {
                 const paragraph = document.createElement('p');
                 paragraph.textContent = 'อาคารวิศววัฒนะ (Witsawawatthana Building) แขวงบางมด เขตทุ่งครุ กรุงเทพมหานคร 10140';
 
+                // append header and paragraph to the item
                 item.append(header, paragraph);
                 break;
 
@@ -112,13 +121,16 @@ const footer = (() => {
                         default:
                             print('You are not suppose to be here!');
                     }
+                    // append icon to the link
                     a.append(i);
+                    // append link to the item
                     item.append(a);
                 }
                 break;
             default:
                 print('You are not suppose to reach here!');
         }
+        // append item to the row
         row.append(item);
     }
 
@@ -127,7 +139,9 @@ const footer = (() => {
     copyright.classList.add('copyright');
     copyright.textContent = 'Overdose © 2022';
 
+    // append a row and a copyright paragraph to the container
     container.append(row, copyright);
+    // append the container to the html
     document.body.append(footer);
 })();
 

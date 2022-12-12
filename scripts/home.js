@@ -1,3 +1,5 @@
+// append footer and navBar to the html
+// calling scrollIntoView script
 import footer from "./footer.js";
 import navBar from "./navbar.js";
 import scrollIntoView from "./scrollToView.js";
@@ -26,11 +28,13 @@ let featureTxt3 = 'Filter Medicine';
 let featureImg4 = './img/health.jpg';
 let featureTxt4 = 'Sensor check health';
 
+// append howToUse section to the html
 const howToUseSection1 = howToUse(1, howToUseImg1, howToUseHeader1, howToUsePara1);
 const howToUseSection2 = howToUse(2, howToUseImg2, howToUseHeader2, howToUsePara2);
 const howToUseSection3 = howToUse(1, howToUseImg3, howToUseHeader3, howToUsePara3);
 const howToUseSection4 = howToUse(2, howToUseImg4, howToUseHeader4, howToUsePara4);
 
+// append featureShowcase to the html
 const featureShowcase1 = featureShowcase(featureImg1, featureTxt1, featureImg2, featureTxt2, featureImg3, featureTxt3, featureImg4, featureTxt4);
 
 
