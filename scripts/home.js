@@ -20,13 +20,13 @@ let howToUseHeader4 = "My Patients Page";
 let howToUsePara4 = "If you are a caregiver, you may face a problem where you are unable to remember the details of each patient due to the large number and variety of patients. You may have to carry a lot of documents to look through which wastes time and resources on printing documents. This system has put your patient information into the application, if you want to know the details of any patient, you can enter your patient name in the system. The system displays the patient details you want to know instantly, saving time and resources spent printing paperwork.";
 
 let featureImg1 = './img/Chart.webp';
-let featureTxt1 = 'Chart and Reports';
+let featureTxt1 = 'Report on History and Schedules';
 let featureImg2 = './img/red-alarm.jpg';
-let featureTxt2 = 'Alarm in Application';
+let featureTxt2 = 'Daily Notification';
 let featureImg3 = './img/medicine.webp';
-let featureTxt3 = 'Filter Medicine';
+let featureTxt3 = 'Medicine Information';
 let featureImg4 = './img/health.jpg';
-let featureTxt4 = 'Sensor check health';
+let featureTxt4 = 'Trustworthy Caretakers';
 
 // append howToUse section to the html
 const howToUseSection1 = howToUse(1, howToUseImg1, howToUseHeader1, howToUsePara1);
