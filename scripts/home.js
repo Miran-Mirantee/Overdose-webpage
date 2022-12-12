@@ -6,16 +6,16 @@ import scrollIntoView from "./scrollToView.js";
 import howToUse from "./howToUseSection.js";
 import featureShowcase from "./featureShowcase.js";
 
-let howToUseImg1 = "./img/home_app.jpg";
+let howToUseImg1 = "./img/home_app.png";
 let howToUseHeader1 = "Home page";
 let howToUsePara1 = "Display your profile page where the tools can be customized according to your role in the system. Use it to get an overview of your work schedule, whether it's the time or the details of your daily logs. You can customize the buttons according to your role in the system.";
-let howToUseImg2 = "./img/findCare_app.jpg";
+let howToUseImg2 = "./img/findCare_app.png";
 let howToUseHeader2 = "Find Available Caretaker Page";
 let howToUsePara2 = "In case you need help or need someone to take care of scheduling your medications, organizing your medication packs, following up on your health reports, and so on. You can find your assistants from this menu and can view their profiles to help you make decisions.";
-let howToUseImg3 = "./img/medicine_app.jpg";
+let howToUseImg3 = "./img/medicine_app.png";
 let howToUseHeader3 = "All Medicine Page";
 let howToUsePara3 = "You may have wondered if with each dose, what kind of drug you are taking or if it is reliable or not. This support system was created to meet the needs of users who want reliability in medicine. You can search for the drug you want to know in detail, just enter the drug name in the menu, the system will display the drug with the name related to the drug name you searched for. That's all, you can know all the drug details and trust in the safety of the drug that you run out.";
-let howToUseImg4 = "./img/patient_app.jpg";
+let howToUseImg4 = "./img/patient_app.png";
 let howToUseHeader4 = "My Patients Page";
 let howToUsePara4 = "If you are a caregiver, you may face a problem where you are unable to remember the details of each patient due to the large number and variety of patients. You may have to carry a lot of documents to look through which wastes time and resources on printing documents. This system has put your patient information into the application, if you want to know the details of any patient, you can enter your patient name in the system. The system displays the patient details you want to know instantly, saving time and resources spent printing paperwork.";
 
